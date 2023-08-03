@@ -1,0 +1,5 @@
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\WebApi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\WebApi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\WebApi\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache

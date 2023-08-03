@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\temp\\CSAHRP_EXP\\Client\\Client.csproj",
-      "projectName": "Client",
-      "projectPath": "D:\\Projects\\temp\\CSAHRP_EXP\\Client\\Client.csproj",
+      "projectUniqueName": "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Client\\ChatClient.csproj",
+      "projectName": "ChatClient",
+      "projectPath": "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Client\\ChatClient.csproj",
       "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\temp\\CSAHRP_EXP\\Client\\obj\\",
+      "outputPath": "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

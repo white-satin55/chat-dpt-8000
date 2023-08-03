@@ -1,23 +1,23 @@
 ﻿using System.Text;
 using System.Net.Sockets;
 
-namespace Client
+namespace ChatClient
 {
     public class Client
-    {
+    {                
+        protected string name;
 
-        protected TcpClient client;
-        protected StreamWriter writer;
+        public Client(string name)
+        {
+            this.name = name;
+        }
 
         public void Connect(string IP)
         {
-            client = new TcpClient();
+            using var client = new TcpClient();
             client.Connect(IP, 8888);
 
-            writer = new StreamWriter(client.GetStream(), Encoding.Unicode) { AutoFlush = true };
-
-            Console.WriteLine("Введите имя:");
-            string name = Console.ReadLine();
+            using var writer = new StreamWriter(client.GetStream(), Encoding.Unicode) { AutoFlush = true };
 
             writer.WriteLine(name);
 

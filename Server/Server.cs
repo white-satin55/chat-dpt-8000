@@ -3,51 +3,47 @@ using System.Net.Sockets;
 using System.Text;
 
 
-namespace Server
+namespace ChatServer
 {
     public class Server
     {
+        protected IPAddress ipAddress = IPAddress.Loopback;
+        protected int port = 8888;
         protected readonly ILogger logger;
         protected TcpListener tcpListener;
-        protected List<StreamWriter> clientStreams;
+        //protected List<StreamWriter> clientStreams;
+        protected ClientRepository repository = new ClientRepository();
 
         public Server(ILogger logger)
         {
             this.logger = logger;
-            clientStreams = new List<StreamWriter>();
+            tcpListener = new TcpListener(ipAddress, port);                        
         }
 
         public void Start()
-        {
-            var ip = IPAddress.Parse("127.0.0.1");
-            tcpListener = new TcpListener(ip, 8888);
+        {                        
             tcpListener.Start();
 
             logger.Log("Сервер запущен, ожидание подключений...");
-            logger.Log($"IP адресс сервера: {ip}");
+            logger.Log($"IP адресс сервера: {ipAddress}");
 
             while (true)
             {                
                 TcpClient tcpClient = tcpListener.AcceptTcpClient();                                
-
-                clientStreams.Add(new StreamWriter(tcpClient.GetStream(), Encoding.Unicode) { AutoFlush = true });
+                Client client = new Client(tcpClient.GetStream());                
+                repository.Add(client);
 
                 var clientThread = new ClientThread(tcpClient.GetStream(), this, this.logger);                
                 var thread = new Thread(new ThreadStart(clientThread.Run));
                 thread.Start();                
             }
         }
-        
-        public void Disconnect(Stream stream)
-        {            
-            clientStreams.Remove(clientStreams.Find(s => s.BaseStream.Equals(stream)));
-        }
-
+            
         public void BroadcastMessage(string message)
         {            
-            foreach (var stream in clientStreams)
+            foreach (var client in repository)
             {
-                stream.WriteLine(message);                
+                client.StreamWriter.WriteLine(message);         
             }
             logger.Log(message);
         }

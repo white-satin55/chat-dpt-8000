@@ -1,4 +1,4 @@
-﻿namespace Client;
+﻿namespace ChatClient;
 
 class Program
 {

@@ -1,6 +1,6 @@
-﻿
+﻿using ChatServer;
 
-namespace Server
+namespace Infrastructure.Logging
 {
     public class ConsoleLogger : ILogger
     {

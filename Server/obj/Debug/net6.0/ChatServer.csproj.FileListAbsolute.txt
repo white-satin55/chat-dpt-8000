@@ -1,0 +1,12 @@
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\bin\Debug\net6.0\ChatServer.deps.json
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\bin\Debug\net6.0\ChatServer.dll
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\bin\Debug\net6.0\ChatServer.pdb
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ChatServer.csproj.AssemblyReference.cache
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ChatServer.AssemblyInfoInputs.cache
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ChatServer.AssemblyInfo.cs
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ChatServer.csproj.CoreCompileInputs.cache
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ChatServer.dll
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\refint\ChatServer.dll
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ChatServer.pdb
+D:\Projects\temp\CSAHRP_EXP\ChatGPT 8000\Server\obj\Debug\net6.0\ref\ChatServer.dll

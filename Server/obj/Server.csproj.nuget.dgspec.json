@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\temp\\CSAHRP_EXP\\Server\\Server.csproj": {}
+    "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\temp\\CSAHRP_EXP\\Server\\Server.csproj": {
+    "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\temp\\CSAHRP_EXP\\Server\\Server.csproj",
+        "projectUniqueName": "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\Projects\\temp\\CSAHRP_EXP\\Server\\Server.csproj",
+        "projectPath": "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\temp\\CSAHRP_EXP\\Server\\obj\\",
+        "outputPath": "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

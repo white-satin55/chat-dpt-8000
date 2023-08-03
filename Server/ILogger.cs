@@ -1,6 +1,6 @@
 ﻿
 
-namespace Server
+namespace ChatServer
 {
     public interface ILogger
     {

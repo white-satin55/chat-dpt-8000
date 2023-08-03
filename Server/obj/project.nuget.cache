@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dMbSpK35EVnChfGpUwhLWXnzC9NMiwkqAaTxXMOSFlEj4Fb6/+DEWJhNCWCxUoKAcFw/KfRoDEafUD+emT+Lgw==",
+  "dgSpecHash": "ktF6hRoO+VvuimjGf2dcCJQgE9sNHBcrIuh17SL2pl5BtozWtM6UOHZHfkVmCnt/xsQXZIlxJjWqerohrrBdvg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\temp\\CSAHRP_EXP\\Server\\Server.csproj",
+  "projectFilePath": "D:\\Projects\\temp\\CSAHRP_EXP\\ChatGPT 8000\\Server\\ChatServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
